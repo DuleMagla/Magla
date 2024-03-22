@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+float x, y, rez;
+char znak;
+
+printf("Ucitati dva realna broja:\nx=");
+scanf("%f", &x);
+printf("y=");
+scanf("%f", &y);
+printf("Uneti znak aritmeticke operacije:\n");
+scanf(" %c", &zank);
+switch(znak)
+{
+case'+':rez=x+y;
+printf("%.2f+%.2f=%.2f", x, y, rez);break;
+case'-':rez=x+y;
+printf("%.2f-%.2f=%.2f",x,y,rez);break;
+case'*':rez=x*y
+printf("%.2f*%.2f=%.2f", x,y,rez);break;
+case'/':rez=x/y;
+printf("%.2f/%.2f=%.2f",x,y,rez);break;
+default:printf("Pogresno unet operater");
+}
+}
